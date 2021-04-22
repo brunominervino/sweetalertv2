@@ -1,3 +1,9 @@
+<p align="center">
+	<a href="https://pub.dartlang.org/packages/sweetalertv2">
+		<img src="https://img.shields.io/pub/v/sweetalertv2.svg" alt="pub package" />
+	</a>
+</p>
+
 # sweetalertv2
 
 sweetalertv2 for flutter.
