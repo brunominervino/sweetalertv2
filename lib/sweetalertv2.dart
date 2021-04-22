@@ -300,6 +300,12 @@ abstract class SweetAlertV2 {
       Color confirmButtonColor,
       String cancelButtonText,
       String confirmButtonText,
+      EdgeInsets titlePadding,
+      EdgeInsets subtitlePadding,
+      TextAlign titleTextAlign,
+      TextStyle titleStyle,
+      TextAlign subtitleTextAlign,
+      TextStyle subtitleStyle,
       SweetAlertV2Style style}) {
     SweetAlertV2Options options = new SweetAlertV2Options(
         showCancelButton: showCancelButton,
@@ -310,7 +316,13 @@ abstract class SweetAlertV2 {
         confirmButtonColor: confirmButtonColor,
         confirmButtonText: confirmButtonText,
         cancelButtonText: cancelButtonText,
-        cancelButtonColor: cancelButtonColor);
+        cancelButtonColor: cancelButtonColor,
+        titlePadding: titlePadding,
+        subtitlePadding: subtitlePadding,
+        titleTextAlign: titleTextAlign,
+        titleStyle: titleStyle,
+        subtitleTextAlign: subtitleTextAlign,
+        subtitleStyle: subtitleStyle);
     if (_state != null) {
       _state.update(options);
     } else {
